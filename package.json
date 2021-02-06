@@ -1,0 +1,44 @@
+{
+  "name": "proxy-juan",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/J-EQUAL-MC-SQUARED/proxy-juan#readme",
+  "bugs": {
+    "url": "https://github.com/J-EQUAL-MC-SQUARED/proxy-juan/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-EQUAL-MC-SQUARED/proxy-juan.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "server": "node server"
+  },
+  "eslintConfig": {
+    "env": {
+      "commonjs": true,
+      "es2021": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "extends": [
+      "airbnb-base"
+    ],
+    "rules": {}
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
